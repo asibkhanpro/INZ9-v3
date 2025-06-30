@@ -1113,3 +1113,69 @@ ul.sidebar-box li a {
 .company_logo_button {
   margin-bottom: 2rem;
 }
+
+
+
+
+
+
+
+
+
+
+.highlight {
+  color: #FC7100;
+  font-weight: 700;
+  font-size: 2.2rem;
+  margin-bottom: .8rem;
+}
+.about-main-content h5 {
+	font-size: 1.6rem;
+	color: #D8D9DD;
+}
+.about-main-content p {
+	font-size: 1.4rem;
+	color: #9396A1;
+}
+.sidebar {
+
+  background: #232E46 0% 0% no-repeat padding-box;
+  border: .1rem solid #334155;
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: center;
+}
+.sidebar a {
+  display: block;
+  color: #9396A1;
+  padding: 15px 20px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid #334155;
+  font-weight: 500;
+  background: #232E46 0% 0% no-repeat padding-box;
+}
+.sidebar a:hover {
+  color: #ffcc70;
+  background: transparent linear-gradient(180deg, #436EC2 0%, #243965 93%, #436EC2 100%) 0% 0% no-repeat padding-box;
+}
+.sidebar a.active {
+
+  color: #fff;
+  background: transparent linear-gradient(180deg, #436EC2 0%, #243965 93%, #436EC2 100%) 0% 0% no-repeat padding-box;
+  border-radius: 7px 7px 0px 0px;
+}
+.about-main-content .feature-icon {
+	display: flex;
+	align-items: center;
+	margin-bottom: 4rem;
+}
+.about-main-content .feature-icon img {
+	width: 5.6rem;
+	margin-right: 2.5rem;
+}
+.about-main-content .feature-icon span {
+	font-size: 1.2rem;
+	color: #F88400;
+	line-height: 1.4rem;
+}

@@ -55,7 +55,14 @@
             observer.observe(this);
         });
     });
+    const links = document.querySelectorAll('.sidebar a');
+    const currentPage = window.location.pathname.split('/').pop();
 
+    links.forEach(link => {
+        if (link.getAttribute('href') === currentPage) {
+            link.classList.add('active');
+        }
+    });
 
     // Events when document is ready
     $(document).ready(function () {
