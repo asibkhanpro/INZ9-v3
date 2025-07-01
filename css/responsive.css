@@ -24,6 +24,11 @@
   .footer-license {
     padding: 6rem 0;
   }
+
+  .about-main-content h5 br,
+  .about-main-content p br {
+    display: none;
+  }
 }
 
 /*----- sm devices (tablets, 768px and up) -----*/
@@ -724,6 +729,7 @@
     align-items: center;
     margin-right: .8rem;
     height: 4rem;
+    width: 100%;
   }
 
   .sidebar {
@@ -732,10 +738,10 @@
 
   .sidebar a.active,
   .sidebar a:hover {
-    color: #F88400;
+    color: #F88401;
     background: none;
     border: .1rem solid #F88400;
-    border-radius: .6rem;
+    border-radius: .4rem;
   }
 
   .sidebar {
@@ -743,6 +749,7 @@
     border: none;
     display: flex;
     align-items: center;
+    padding: 0 1rem;
   }
 
   .about-sm {
