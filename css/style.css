@@ -1129,14 +1129,17 @@ ul.sidebar-box li a {
   font-size: 2.2rem;
   margin-bottom: .8rem;
 }
+
 .about-main-content h5 {
-	font-size: 1.6rem;
-	color: #D8D9DD;
+  font-size: 1.6rem;
+  color: #D8D9DD;
 }
+
 .about-main-content p {
-	font-size: 1.4rem;
-	color: #9396A1;
+  font-size: 1.4rem;
+  color: #9396A1;
 }
+
 .sidebar {
 
   background: #232E46 0% 0% no-repeat padding-box;
@@ -1145,6 +1148,7 @@ ul.sidebar-box li a {
   overflow: hidden;
   text-align: center;
 }
+
 .sidebar a {
   display: block;
   color: #9396A1;
@@ -1155,27 +1159,99 @@ ul.sidebar-box li a {
   font-weight: 500;
   background: #232E46 0% 0% no-repeat padding-box;
 }
+
 .sidebar a:hover {
   color: #ffcc70;
   background: transparent linear-gradient(180deg, #436EC2 0%, #243965 93%, #436EC2 100%) 0% 0% no-repeat padding-box;
 }
+
 .sidebar a.active {
 
   color: #fff;
   background: transparent linear-gradient(180deg, #436EC2 0%, #243965 93%, #436EC2 100%) 0% 0% no-repeat padding-box;
   border-radius: 7px 7px 0px 0px;
 }
+
 .about-main-content .feature-icon {
-	display: flex;
-	align-items: center;
-	margin-bottom: 4rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
 }
+
 .about-main-content .feature-icon img {
-	width: 5.6rem;
-	margin-right: 2.5rem;
+  width: 5.6rem;
+  margin-right: 2.5rem;
 }
+
 .about-main-content .feature-icon span {
-	font-size: 1.2rem;
-	color: #F88400;
-	line-height: 1.4rem;
+  font-size: 1.2rem;
+  color: #F88400;
+  line-height: 1.4rem;
+}
+
+
+
+/* faq */
+
+.accordion-item .accordion-button {
+	font-size: 1.4rem;
+  color: #fff;
+  border: none;
+  background: transparent !important;
+}
+.accordion-item {
+	background-color: transparent !important;
+}
+.accordion-body p {
+	color: #9396A1;
+  font-size: 1.4rem;
+}
+.accordion-body {
+	padding: 0 var(--bs-accordion-body-padding-x) 1.3rem;
+}
+.accordion-button:not(.collapsed) {
+	color: #FC7100;
+  background-color: #222;
+}
+
+.accordion-item {
+  background-color: #111;
+  border: none;
+  border-bottom: 1px solid #333;
+}
+
+.section-title {
+	color: #FC7100;
+	font-size: 2.2rem;
+	border-bottom: .1rem solid #494C57;
+	padding-bottom: 1rem;
+	padding-left: 1rem;
+}
+
+.accordion-button::after {
+  background-image: url('../img/collapse.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1rem;
+  width: 1rem;
+  height: 1rem;
+  content: "";
+  transform: none;
+  transition: all 0.3s ease;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url('../img/close_collapse.png');
+  transform: rotate(0);
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  border-color: none;
+  outline: 0;
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  box-shadow: none;
 }

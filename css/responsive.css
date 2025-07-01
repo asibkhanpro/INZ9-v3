@@ -762,6 +762,10 @@
   .sidebar a:last-child {
     margin-right: 0;
   }
+
+  .accordion_content {
+    padding-bottom: 3rem;
+  }
 }
 
 /*----- xs devices (landscape phones, 575px and down) -----*/
